@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/movies/static/js/main.8b593a76.chunk.js",
+    "main.js.map": "/movies/static/js/main.8b593a76.chunk.js.map",
+    "runtime-main.js": "/movies/static/js/runtime-main.00acc961.js",
+    "runtime-main.js.map": "/movies/static/js/runtime-main.00acc961.js.map",
+    "static/js/2.aeb32004.chunk.js": "/movies/static/js/2.aeb32004.chunk.js",
+    "static/js/2.aeb32004.chunk.js.map": "/movies/static/js/2.aeb32004.chunk.js.map",
+    "index.html": "/movies/index.html",
+    "static/js/2.aeb32004.chunk.js.LICENSE.txt": "/movies/static/js/2.aeb32004.chunk.js.LICENSE.txt",
+    "static/media/Ivan.2e5e2e62.jpg": "/movies/static/media/Ivan.2e5e2e62.jpg",
+    "static/media/Raya_and_the_Last_Dragon.3aae790d.jpeg": "/movies/static/media/Raya_and_the_Last_Dragon.3aae790d.jpeg",
+    "static/media/brat.c087c688.webp": "/movies/static/media/brat.c087c688.webp",
+    "static/media/future.9f05adbe.jpg": "/movies/static/media/future.9f05adbe.jpg",
+    "static/media/interstellar.5289de39.webp": "/movies/static/media/interstellar.5289de39.webp",
+    "static/media/lionking.eb1f7a4c.jpg": "/movies/static/media/lionking.eb1f7a4c.jpg",
+    "static/media/prestige.5450e771.jpg": "/movies/static/media/prestige.5450e771.jpg",
+    "static/media/pulp.918d8079.jpg": "/movies/static/media/pulp.918d8079.jpg",
+    "static/media/showshank.306f675c.webp": "/movies/static/media/showshank.306f675c.webp",
+    "static/media/spirited.ef1990f6.jpg": "/movies/static/media/spirited.ef1990f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00acc961.js",
+    "static/js/2.aeb32004.chunk.js",
+    "static/js/main.8b593a76.chunk.js"
+  ]
+}

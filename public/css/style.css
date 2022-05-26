@@ -1,0 +1,571 @@
+body {
+    background-color: #1a1a1a;
+    font-family: 'Montserrat', sans-serif;
+    color: #ececec;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+
+.logoMovies {
+    color: #6ac045;
+    font-size: 35pt;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.formQuickSearch {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.quickSearch {
+    border: 2px solid #757575; 
+    border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px; 
+    background: #1a1a1a !important; 
+    height: 30px;
+    width: 300px; 
+    font-size: 14px;
+    color: #ececec;
+    margin-top: 33px;
+    outline: none;
+    margin-left: 40px;
+}
+
+.searchButton {
+    height: 35px;
+    margin-top: 27px;
+    margin-left: 20px;
+    border: 2px solid #757575; 
+    border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: #757575 !important; 
+    position: absolute;
+    top: 7px;
+    right: -50px;
+    cursor: pointer;
+}
+
+.searchButton:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #cecece;
+    font-size: 20px;
+  }
+
+.navsHeader {
+    margin-top: 33px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.navHeader {
+    color: #b6b6b6;
+    font-size: 20pt;
+    margin-left: 50px;
+}
+
+.navHeader:hover {
+    color: #ececec;
+}
+
+.bestMoviesHeading {
+    text-align: center;
+}
+
+.formSearchMovies {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.searchMovies {
+    border: 2px solid #757575; 
+    border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px; 
+    background: #1a1a1a !important; 
+    height: 30px;
+    width: 800px; 
+    font-size: 14px;
+    color: #ececec;
+    outline: none;
+}
+
+.searchMoviesButton {
+    height: 35px;
+    width: 150px;
+    margin-top: 27px;
+    margin-left: 20px;
+    border: 2px solid #757575; 
+    border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: #757575 !important; 
+    cursor: pointer;
+    color: #ececec;
+}
+
+.filter {
+    display: flex;
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.filter p {
+    color: #cecece;
+}
+
+.filterItem {
+    margin-left: 50px;  
+}
+
+.filterItem select {
+    background-color: #353535;
+    color: #cecece;
+    border-radius: 10px; 
+    border-color: #353535;
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px; 
+    outline: none;
+    height: 28px;
+}
+
+.personalData {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+    margin-bottom: 100px;
+}
+
+.dataName {
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.dataName span {
+    color: #b8b8b8;
+}
+
+.persDat {
+    display: flex;
+}
+
+.photo {
+    height: 150px;
+    width: 200px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.personalDataForm {
+    width: 700px;
+    margin-right: 100px;
+}
+
+.profile {
+    margin-left: 20px;
+}
+
+.watchlistHeading {
+    margin-left: 100px;
+    font-size: 22pt;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    /*margin-left: 500px;*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 810px;
+}
+
+input[type="date"]:not(.has-value):before {
+    content: attr(placeholder);
+}
+
+.registerForm {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.registerButton {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
+    height: 35px;
+    border: 2px solid #6ac045; 
+    border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: #6ac045 !important; 
+    cursor: pointer;
+    color: #1a1a1a;
+}
+
+.regHeading {
+    text-align: center;
+}
+
+.registerItem {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid #757575; 
+    border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px; 
+    background: #1a1a1a !important; 
+    font-size: 14px;
+    color: #ececec;
+    outline: none;
+}
+
+.registerItem::placeholder { 
+    color: rgb(255, 255, 255);
+}
+
+.ruleVertical {
+    height: 500px;
+    width: 2px;
+    background-color: #5e5e5e;
+    border: 0;
+    margin: 0;
+}
+
+.signInForm {
+    margin-left: 100px;
+}
+
+section {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 40px;
+}
+
+li {
+    list-style: none;
+    color: #b6b6b6;
+    font-size: 20pt;
+}
+
+.poster {
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.titleRus {
+    font-size: 20pt;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.titleEng {
+    font-size: 15pt;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.genres {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.description {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    max-width: 1200px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.downloadButton {
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #6ac045;
+    border: 0px; 
+    border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.poster-download {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.watchlistButton {
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #6ac045;
+    border: 0px; 
+    border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: -10%;
+}
+
+.watchlistButtonDN span {
+    display: none;
+}
+
+.buttonActive {
+    background-color: #1a1a1a;
+    border: 2px solid #6ac045; 
+    color: #6ac045;
+}
+
+.buttonActive::after {
+    content: "Добавлено";
+}
+
+.raitingButton {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #6ac045; 
+    border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: #1a1a1a !important; 
+    cursor: pointer;
+    position: relative;
+    left: -10%;
+    top: 2.7%;
+}
+
+.raiting-buttons {
+    display: none;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 0;
+    position: relative;
+    left: -8.5%;
+    top: -40px;
+}
+
+.stars-show {
+    display: flex;
+}
+
+.stars {
+    position: relative;
+    left: -8.5%;
+    height: 350px;
+}
+
+.raitingButton:before {
+    content: "\f005";
+    font-family: FontAwesome;
+    color: #6ac045;
+    font-size: 22px;
+  }
+
+.star {
+    height: 30px;
+    width: 30px;
+    background: #1a1a1a !important; 
+    cursor: pointer;
+    position: relative;
+    left: 10%;
+}
+
+.star::before {
+    content: "\f005";
+    font-family: FontAwesome;
+    color: #6ac045;
+    font-size: 13px;
+    text-align: left;
+    
+}
+
+.star:hover::before {
+    color: #ececec;
+}
+
+.star10:hover::before {
+    content: "10";
+}
+
+.star9:hover::before {
+    content: "9";
+}
+
+.star8:hover::before {
+    content: "8";
+}
+
+.star7:hover::before {
+    content: "7";
+}
+
+.star6:hover::before {
+    content: "6";
+}
+
+.star5:hover::before {
+    content: "5";
+}
+
+.star4:hover::before {
+    content: "4";
+}
+
+.star3:hover::before {
+    content: "3";
+}
+
+.star2:hover::before {
+    content: "2";
+}
+
+.star1:hover::before {
+    content: "1";
+}
+
+.raiting {
+    color: #6ac045;
+    font-size: 25pt;
+    width: 200px;
+    margin-top: 10px;
+    position: relative;
+    left: -8%;
+}
+
+.arrowButton {
+    background-color: #1a1a1a;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    left: -26%;
+}
+
+.arrowButton:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    color: #888888;
+    font-size: 40px;
+}
+
+.arrowButton:hover {
+    color: #cecece;
+}
+
+.rule {
+    margin-top: 40px;
+    border: none;
+    background-color: #5e5e5e;
+    height: 1px;
+}
+
+.icons {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.vkIcon {
+    background-color: #1a1a1a;
+    height: 60px;
+    border: 0;
+    cursor: pointer;
+}
+
+.vkIcon:before {
+    content: "\f189";
+    font-family: FontAwesome;
+    color: #6ac045;
+    font-size: 60px;
+}
+
+.instagramIcon {
+    background-color: #1a1a1a;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.instagramIcon:before {
+    content: "\f16d";
+    font-family: FontAwesome;
+    color: #6ac045;
+    font-size: 50px;
+}
+
+.youtubeIcon {
+    background-color: #1a1a1a;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.youtubeIcon:before {
+    content: "\f167";
+    font-family: FontAwesome;
+    color: #6ac045;
+    font-size: 50px;
+}
+
+.moviesFooter {
+    color: #6ac045;
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/*
+зеленый - #6ac045 
+темно-серый - #1a1a1a 
+светло-серый - #b6b6b6
+белый - #ececec
+*/
